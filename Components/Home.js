@@ -48,7 +48,7 @@ export default function Home({ navigation }) {
           For scoreboard, enter your name...
         </Text>
         <TextInput
-          style={[styles.input, styles.centered, styles.rulesText]}
+          style={styles.centered}
           placeholder="name"
           value={playerName}
           onChangeText={setPlayerName}

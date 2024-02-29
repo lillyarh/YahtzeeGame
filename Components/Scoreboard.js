@@ -90,7 +90,7 @@ const Scoreboard = ({ navigation }) => {
                   </DataTable.Title>
                   <DataTable.Title
                     style={{
-                      width: moderateScale(100),
+                      width: moderateScale(150), // I have increased the width so that the date is hopefully displayed in full.
                     }}
                     numeric
                   >

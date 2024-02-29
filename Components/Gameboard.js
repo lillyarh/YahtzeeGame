@@ -233,8 +233,8 @@ export default function Gameboard({ route }) {
             { height: 400 },
           ]}
           contentContainerStyle={{
-            alignItems: "center", // Apply your desired alignItems value here
-            justifyContent: "center", // You may also need to set justifyContent if necessary
+            alignItems: "center",
+            justifyContent: "center",
           }}
         >
           {showDiceIcon && <DiceIcon />}

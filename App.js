@@ -7,7 +7,6 @@ import Gameboard from "./Components/Gameboard";
 import Scoreboard from "./Components/Scoreboard";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import styles from "./Style/style";
-import * as Font from "expo-font";
 import { useFonts, Roboto_400Regular } from "@expo-google-fonts/roboto";
 
 const Tab = createBottomTabNavigator();
@@ -18,7 +17,7 @@ export default function App() {
   });
 
   if (!fontsLoaded) {
-    return null; // Warte, bis die Schriftarten geladen sind
+    return null;
   }
 
   return (

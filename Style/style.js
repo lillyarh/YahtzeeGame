@@ -272,6 +272,12 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginTop: verticalScale(20),
   },
+  centered: {
+    justifyContent: "center",
+    textAlign: "center",
+    marginBottom: moderateScale(10),
+    marginTop: moderateScale(20),
+  },
 });
 
 export default styles;
